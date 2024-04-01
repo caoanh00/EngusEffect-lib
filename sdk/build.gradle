@@ -33,6 +33,20 @@ android {
     }
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication){
+                from components.release
+                groupId = 'com.engus.sdk'
+                artifactId = 'EngusEffect-lib'
+                version = '1.0.0'
+            }
+        }
+    }
+}
+
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.12.0'
