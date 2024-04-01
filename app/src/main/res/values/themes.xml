@@ -2,4 +2,5 @@
 <resources>
 
     <style name="Theme.SDKApplication" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SDKApplication2" parent="Theme.AppCompat.Light.DarkActionBar" />
 </resources>
